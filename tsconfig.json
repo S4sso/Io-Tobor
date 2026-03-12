@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true, 
+    "strictNullChecks": false,
+    "allowUnreachableCode": true,
+    "sourceMap": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true,
+    "typeRoots": ["node_modules/@types", "typings"],
+    "lib": ["dom", "es2015.promise", "es5"],
+    "types": ["node"]
+  },
+  "include": ["src/**/*", "typings/**/*"],
+  "exclude": ["node_modules", "dist", "public"]
+}
